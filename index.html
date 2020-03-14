@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>EDEN</title>
+    <link rel="icon" href="./asset/image/mine/1.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+  
 </head>
 <body>
-           <a href="home.html">HOME</a>&nbsp;&nbsp;
+    <div id="index">
+        <!-- the navigation bar gets displayed here -->
+           <a href="index.html">HOME</a>&nbsp;&nbsp;
            <a href="#aboutme">ABOUTME</a>&nbsp;&nbsp;&nbsp;
            <a href="#hobbies">HOBBIES</a>&nbsp;&nbsp;
            <a href="#skills">SKILLS</a>&nbsp;&nbsp;
@@ -20,31 +24,45 @@
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <a href=""> <img src="asset/image/tw.png" alt="twitter" width="20px" height= "20px"></a>
-           <a href=""> <img src="asset/image/fa.png" alt="facebook" width ="20px" height ="20px"></a>
-           <a href=""> <img src="asset/image/li.png" alt="linkedin" width = "20px" height="20px"></a> 
+           <a href=""> <img src="asset/image/socio/tw.png" alt="twitter" width="20px" height= "20px"></a>
+           <a href=""> <img src="asset/image/socio/fa.png" alt="facebook" width ="20px" height ="20px"></a>
+           <a href=""> <img src="asset/image/socio/li.png" alt="linkedin" width = "20px" height="20px"></a> 
   
 <hr>
-
+</div>
 <div =id"profile">
-   <img src="asset/image/1.jpg" alt="my profile image" width="100%" position="fixed" height="500px">
+    <!-- my big profile image displayed here  -->
+   <img src="asset/image/mine/1.jpg" alt="my profile image" width="100%" position="fixed" height="500px">
 </div>
 <h1 id="aboutme"><center>ABOUT ME</center></h1>
     <hr>
 <div>
+    <!-- the about me content dispalyed here -->
 <table>
     <tr>
-        <td><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repudiandae animi est a 
-            <p> rerum numquam ipsam officiis officia asperiores magnam, cumque, delectus praesentium, </p>
-               <p>nulla placeat culpa odio accusamus rem quibusdam commodi. </p>
-                <p> Alias ullam mollitia ut ipsa, quo quisquam molestiae nihil veniam, </p>
-                  <p>neque beatae praesentium modi maxime laboriosam excepturi necessitatibus facilis.</p></td>
-        <td> <img src="asset/image/1.jpg" alt="my profile image" width="100%" position="fixed" height="500px"></td>
+        <td>
+            <h2>EDEN TAKELE</h2>
+            <h4>Juniour software developer</center></h4>
+            <h4>Computer science student at AAIT</center> </h4>
+            <hr>
+            <h3>SUMMARY</h3>
+            <p>Upcoming BSSE graduate offering a strong foundation in software engineering and programming principles across multiple platforms.</p>
+            <p>Quickly learn and master new technology .</p>
+            <p>successful working in both team and self-directed settings .</p>
+            <p>Junior experienced in OOP (object oriented programming developing ) testing debugging .</p> 
+
+            
+            <h4><center></center></h4>
+
+
+        </td>
+        <td> <img src="asset/image/mine/2.jpg" alt="my profile image" width="100%" position="fixed" height="500px"></td>
     </tr>
 </table>
 </div>
 <hr>
 <div>
+    <!-- my hobbie dispalyed here -->
     <h1  id="hobbies"><center>HOBBIES</center></h1>
     <hr>
     <table width="100%"" height="1000px">
@@ -68,6 +86,7 @@
 </div>
 <hr>
 <div>
+    <!-- my skills displayed here -->
     <h1 id="skills"><center>SKILLS</center></h1>
     <hr>
     <table width="100%" height="1000px">
@@ -105,8 +124,8 @@
     </table>
 </div>
 <hr>
-<hr>
-<div id="resume">
+<h1 id="resume"><center><u>RESUME</u></center></h1>
+<div>
     <embed src="files/cv.pdf" type="" width="100%" height="600px" >
 </div>
 <hr>
@@ -120,18 +139,19 @@
                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.2561169315063!2d38.7611387770377!3d9.040385993544719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f642ba9e021%3A0x2321687a606863f3!2sAddis%20Ababa%20Institute%20of%20Technology!5e0!3m2!1sen!2set!4v1583389329806!5m2!1sen!2set" width="100%" height="450" frameborder="0" border="0"; allowfullscreen=""></iframe></p>
                 </td>
                 <td>
-                     <input type="text" placeholder="Name">
+                     <input type="text" placeholder="Full Name" pattern="[A-Z a-z]"
+                     title="Name must be in letters">
                  </td>
              </tr>
              <tr>
                 <td>
-                    <input type="email" placeholder="E-Mail">
+                    <input type="email" placeholder="E-Mail address">
                 </td>
                 
              </tr>
                 <tr>
                     <td>
-                       <textarea name="text" id="" cols="30" rows="10" placeholder="put your message here"></textarea>
+                       <textarea name="text" id="" cols="30" rows="10" placeholder="Please put your message here"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -146,5 +166,16 @@
     </table>
 </div>
 <hr>
+
+<footer>
+    <a href="#index"><center><img src="asset/image/up.png" alt=""></center></a>
+    <center>
+        <a href=""> <img src="asset/image/socio/tw.png" alt="twitter" width="60px" height= "60px"></a>
+        <a href=""> <img src="asset/image/socio/fa.png" alt="facebook" width ="60px" height ="60px"></a>
+        <a href=""> <img src="asset/image/socio/li.png" alt="linkedin" width = "60px" height="60px"></a> 
+    </center>
+    
+    <h4><center>@2020 Eden Takele | Addis Ababa Institute Of Technology university</center></h4>
+</footer>
 </body>
 </html>
