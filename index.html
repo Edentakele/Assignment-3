@@ -2,15 +2,63 @@
 <html lang="en">
 <head>
     <title>EDEN</title>
-    <link rel="icon" href="./asset/image/mine/1.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="icon" href="./assets/image/mine/1.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-light">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">EDEN <b>TAKELE</b></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  ...
+</nav>
+<!-- Control the column width, and how they should appear on different devices -->
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+    <!--
     <div id="index">
-        <!-- the navigation bar gets displayed here -->
+        # the navigation bar gets displayed here 
            <a href="index.html">HOME</a>&nbsp;&nbsp;
            <a href="#aboutme">ABOUTME</a>&nbsp;&nbsp;&nbsp;
            <a href="#hobbies">HOBBIES</a>&nbsp;&nbsp;
@@ -30,9 +78,11 @@
   
 <hr>
 </div>
-<div =id"profile">
+-->
+
+<div =id="profile">
     <!-- my big profile image displayed here  -->
-   <img src="asset/image/mine/1.jpg" alt="my profile image" width="100%" position="fixed" height="500px">
+   <img src="assets/image/mine/1.jpg" alt="my profile image" width="100%" position="fixed" height="500px">
 </div>
 <h1 id="aboutme"><center>ABOUT ME</center></h1>
     <hr>
@@ -56,7 +106,7 @@
 
 
         </td>
-        <td> <img src="asset/image/mine/2.jpg" alt="my profile image" width="100%" position="fixed" height="500px"></td>
+        <td> <img src="assets/image/mine/2.jpg" alt="my profile image" width="100%" position="fixed" height="500px"></td>
     </tr>
 </table>
 </div>
@@ -68,19 +118,19 @@
     <table width="100%"" height="1000px">
        
         <tr>
-            <td><h3><center>READING</center></h3><img src="asset/image/hobbies/1.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>CODING</center></h3><img src="asset/image/hobbies/2.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>PHOTOGRAPH</center></h3><img src="asset/image/hobbies/3.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>READING</center></h3><img src="assets/image/hobbies/1.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>CODING</center></h3><img src="assets/image/hobbies/2.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>PHOTOGRAPH</center></h3><img src="assets/image/hobbies/3.jpg" alt="" width="100%" height="300px"></td>
         </tr>
         <tr>
-            <td><h3><center>SINGING</center></h3><img src="asset/image/hobbies/4.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>DANCING</center></h3><img src="asset/image/hobbies/5.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>DANCING</center></h3><img src="asset/image/hobbies/6.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>SINGING</center></h3><img src="assets/image/hobbies/4.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>DANCING</center></h3><img src="assets/image/hobbies/5.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>DANCING</center></h3><img src="assets/image/hobbies/6.jpg" alt="" width="100%" height="300px"></td>
         </tr>
         <tr>
-            <td><h3><center>PRAYING</center> </h3><img src="asset/image/hobbies/7.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>PRAYING</center> </h3><img src="asset/image/hobbies/8.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>COOKING</center> </h3><img src="asset/image/hobbies/9.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>PRAYING</center> </h3><img src="assets/image/hobbies/7.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>PRAYING</center> </h3><img src="assets/image/hobbies/8.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>COOKING</center> </h3><img src="assets/image/hobbies/9.jpg" alt="" width="100%" height="300px"></td>
         </tr>
     </table>
 </div>
@@ -97,9 +147,9 @@
         </tr>
         <tr>
             
-            <td><h3><center>HTML</center></h3><img src="asset/image/skills/12.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>CSS</center></h3><img src="asset/image/skills/2.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>JAVA SCRIPT</center></h3><img src="asset/image/skills/3.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>HTML</center></h3><img src="assets/image/skills/12.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>CSS</center></h3><img src="assets/image/skills/2.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>JAVA SCRIPT</center></h3><img src="assets/image/skills/3.jpg" alt="" width="100%" height="300px"></td>
         </tr>
         <tr>
             <td></td>
@@ -107,9 +157,9 @@
             <td></td>
         </tr>
         <tr>
-            <td><h3><center>PHP</center></h3><img src="asset/image/skills/6.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>MY SQL</center></h3><img src="asset/image/skills/my.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>NODE JS</center></h3><img src="asset/image/skills/node.png" alt="" width="100%" height="300px"></td>
+            <td><h3><center>PHP</center></h3><img src="assets/image/skills/6.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>MY SQL</center></h3><img src="assets/image/skills/my.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>NODE JS</center></h3><img src="assets/image/skills/node.png" alt="" width="100%" height="300px"></td>
         </tr>
         <tr>
             <td></td>
@@ -117,9 +167,9 @@
             <td></td>
         </tr>
         <tr>
-            <td><h3><center>PYTHON</center></h3><img src="asset/image/skills/py.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>JAVA</center></h3><img src="asset/image/skills/13.jpg" alt="" width="100%" height="300px"></td>
-            <td><h3><center>KOTLIN</center></h3><img src="asset/image/skills/kot.png" alt="" width="100%" height="300px"></td>
+            <td><h3><center>PYTHON</center></h3><img src="assets/image/skills/py.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>JAVA</center></h3><img src="assets/image/skills/13.jpg" alt="" width="100%" height="300px"></td>
+            <td><h3><center>KOTLIN</center></h3><img src="assets/image/skills/kot.png" alt="" width="100%" height="300px"></td>
         </tr>
     </table>
 </div>
@@ -168,11 +218,11 @@
 <hr>
 
 <footer>
-    <a href="#index"><center><img src="asset/image/up.png" alt=""></center></a>
+    <a href="#index"><center><img src="assets/image/up.png" alt=""></center></a>
     <center>
-        <a href=""> <img src="asset/image/socio/tw.png" alt="twitter" width="60px" height= "60px"></a>
-        <a href=""> <img src="asset/image/socio/fa.png" alt="facebook" width ="60px" height ="60px"></a>
-        <a href=""> <img src="asset/image/socio/li.png" alt="linkedin" width = "60px" height="60px"></a> 
+        <a href=""> <img src="assets/image/socio/tw.png" alt="twitter" width="60px" height= "60px"></a>
+        <a href=""> <img src="assets/image/socio/fa.png" alt="facebook" width ="60px" height ="60px"></a>
+        <a href=""> <img src="assets/image/socio/li.png" alt="linkedin" width = "60px" height="60px"></a> 
     </center>
     
     <h4><center>@2020 Eden Takele | Addis Ababa Institute Of Technology university</center></h4>
