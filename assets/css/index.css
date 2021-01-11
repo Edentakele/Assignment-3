@@ -6,3 +6,26 @@
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+nav{
+	float:right;
+}
+.brand{
+	color:white;
+	text-decoration:none
+	
+}
+.brand:hover{
+	background-color:balck;
+	color:white;
+}
+nav{
+	height:100px;
+}
+.nav2 li {
+    margin-right: 500px;
+}
+li {
+    display: inline;
+    margin-right: 40px;
+}
+ul.navbar.nav { flex-direction: column; display: flex; } 
