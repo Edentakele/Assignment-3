@@ -24,7 +24,7 @@ nav{
     display: inline;
     margin-right: 35px;
 }
-ul.navbar.nav { flex-direction: column; display: flex; } 
+
 #profile h1{
 	position:absolute;
 	margin-top:27%;
@@ -70,6 +70,6 @@ ul.navbar.nav { flex-direction: column; display: flex; }
 #fo{
 	background-color: gray;
 }
-.brand{
-  font-weight: 900;
+.brand {
+  text-decoration: none;
 }
