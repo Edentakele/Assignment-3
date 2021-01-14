@@ -20,12 +20,9 @@ nav{
 	background-color:balck;
 	color:black;
 }
-.nav2 li {
-    margin-right: 500px;
-}
-li {
+.collapse li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 ul.navbar.nav { flex-direction: column; display: flex; } 
 #profile h1{
@@ -55,14 +52,24 @@ ul.navbar.nav { flex-direction: column; display: flex; }
 	float: right;
 }
 #foot{
-	float: right;
 	padding-top:150px;
+	height: 100px;
+	background-color: gray;
 
-}
-#fooot{
-	 height: 200px;
-	 background-color: gray;
 }
 .nav{
 	float: right;
+	height: 500px;
+
+}
+#foot li{
+	float: right;
+	list-style-type: none;
+
+}
+#fo{
+	background-color: gray;
+}
+.brand{
+  font-weight: 900;
 }
