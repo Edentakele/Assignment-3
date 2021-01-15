@@ -8,10 +8,10 @@
 
 }
 
-p{font-family: 'Bodoni Moda', serif;
-font-family: 'East Sea Dokdo', cursive;
-font-family: 'Merriweather Sans', sans-serif;
+*{
+	font-family: 'EB Garamond', serif;
 }
+
 nav{
 	width: 100%
 }
@@ -27,7 +27,6 @@ nav ul li a:hover{
 	color:black;
 }
 .collapse li {
-    display: inline;
     margin-right: 35px;
 }
 
@@ -98,3 +97,7 @@ nav ul li a:hover{
 
   #contatti .maps iframe{
     width: 100%;
+}
+    #n a:hover{
+    	color: white;
+    }
