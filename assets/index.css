@@ -5,19 +5,25 @@
 	.navbar .nav-item:hover .nav-link{ background-color: black;  }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+}
+
+p{font-family: 'Bodoni Moda', serif;
+font-family: 'East Sea Dokdo', cursive;
+font-family: 'Merriweather Sans', sans-serif;
 }
 nav{
 	width: 100%
+}
+nav ul li a:hover{
+	color: white;
 }
 
 .brand{
 	color:black;
 	text-decoration:none
-
-	
 }
 .brand:hover{
-	background-color:balck;
 	color:black;
 }
 .collapse li {
@@ -30,12 +36,6 @@ nav{
 	margin-top:27%;
 	margin-left:40%
 }
-#space{
-	padding-top:40px;
-}
-#aboutme{
-	padding-top:40px;
-}
 .row1{
 	width: 48%;
 	height: 500px;
@@ -46,20 +46,10 @@ nav{
 	height: 500px;
 	float: right;
 }
-.r1{
-	width: 48%;
-	height: 500px;
-	float: right;
-}
 #foot{
 	padding-top:150px;
 	height: 100px;
 	background-color: gray;
-
-}
-.nav{
-	float: right;
-	height: 500px;
 
 }
 #foot li{
@@ -69,7 +59,42 @@ nav{
 }
 #fo{
 	background-color: gray;
+	height: 200px;
 }
-.brand {
+
+#contatti{
+  background-color: gray;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: black;
   text-decoration: none;
 }
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
